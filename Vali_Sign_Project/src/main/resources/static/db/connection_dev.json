@@ -1,0 +1,6 @@
+{
+	"url": "jdbc:mysql://testrdsforall.c6hujshgwzfd.us-east-1.rds.amazonaws.com/vali_sign?autoReconnect=true&useSSL=false",
+	"database": "vali_sign",
+	"password": "18fW*Z^2$vv&",
+	"username": "valisign_admin"
+}

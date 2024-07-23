@@ -1,0 +1,80 @@
+{
+  "200": {
+    "CODE": 200,
+   "CODE_TEXT": "200",
+    "TEXT": "Success",
+    "DESCRIPTION": "Success - OK"
+  },
+  "201": {
+    "CODE": 201,
+   "CODE_TEXT": "201",
+    "TEXT": "Success-parital",
+    "DESCRIPTION": "Success - OK - but not final response"
+  },
+  "202": {
+    "CODE": 202,
+   "CODE_TEXT": "202",
+    "TEXT": "Failed",
+    "DESCRIPTION": "Partial Success with response"
+  },
+  "203": {
+    "CODE": 203,
+   "CODE_TEXT": "203",
+    "TEXT": "Failed",
+    "DESCRIPTION": "Non-Authoritative Information"
+  },
+  "204": {
+    "CODE": 204,
+   "CODE_TEXT": "204",
+    "TEXT": "No Conent",
+    "DESCRIPTION": "Partial Success and no response"
+  },
+  "206": {
+    "CODE": 206,
+   "CODE_TEXT": "206",
+    "TEXT": "Partial Success",
+    "DESCRIPTION": "Partial Success but not desired result, considered failed"
+  },
+
+  "400": {
+    "CODE": 400,
+   "CODE_TEXT": "400",
+    "DESCRIPTION": "Unexpected input, processed to not accessible elements"
+  },
+  "401": {
+    "CODE": 401,
+   "CODE_TEXT": "401",
+    "DESCRIPTION": "Unexpected input, unauthorized or invalid login"
+  },
+  "403": {
+    "CODE": 403,
+   "CODE_TEXT": "403",
+    "DESCRIPTION":
+      "Unexpected input, unauthorized, valid login but not allowed to access"
+  },
+  "404": {
+    "CODE": 404,
+   "CODE_TEXT": "404",
+    "DESCRIPTION": "Unexpected input, no resource found to process"
+  },
+  "406": {
+    "CODE": 406,
+   "CODE_TEXT": "406",
+    "DESCRIPTION": "Unexpected input, not clear to process"
+  },
+  "409": {
+    "CODE": 409,
+   "CODE_TEXT": "409",
+    "DESCRIPTION": "Unexpected input, not clear to process"
+  },
+  "413": {
+    "CODE": 413,
+   "CODE_TEXT": "413",
+    "DESCRIPTION": "Unexpected input,data/content/media type issue"
+  },
+  "422": {
+    "CODE": 422,
+   "CODE_TEXT": "422",
+    "DESCRIPTION": "Wrong input format in request, no processing of request"
+  }
+}

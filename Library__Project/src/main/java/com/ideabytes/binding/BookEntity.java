@@ -28,7 +28,7 @@ public class BookEntity {
 	private Integer price;
 	private Integer copies;
 	private String 	genre;
-	private String books;
+	private String bo;
 	public Integer getBookid() {
 		return bookid;
 	}
